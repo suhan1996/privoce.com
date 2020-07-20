@@ -1,406 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, user-scalable=no" name="viewport"/>
-    <link href="lib/fomantic-ui/semantic.min.css" rel="stylesheet" type="text/css">
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/fomantic-ui/semantic.min.js"></script>
-    <script src="lib/jquery/jquery.visible.min.js"></script>
-    <script src="lib/jquery/jquery.form.min.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="script.js"></script>
-    <title>The Privoce Project</title>
-</head>
-<body>
+<html>
+    <head>
+        <title>The Privoce Project</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, user-scalable=no" name="viewport"/>
 
-<!--回到顶部按钮-->
-<div class="ui large primary circular icon button n-home" id="scroll-to-top-button">
-    <i class="angle up icon"></i>
-</div>
+        <link href="lib/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/js/bootstrap.min.js"></script>
 
-<!--手机版侧边菜单-->
-<div class="ui vertical inverted sidebar menu" id="sidebar-menu">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <script src="js/main.js"></script>
+    </head>
 
-    <a class="header item n-home" id="side-menu-mobile-header">
-        <h3 class="ui inverted header">The<br>Privoce<br>Project</h3>
-    </a>
-    <a class="item n-mission">Mission Statement</a>
-    <a class="item n-overview">Project Overview</a>
-    <a class="item n-approach">Our Approach</a>
-    <a class="item n-feature">Key Product Features</a>
-    <a class="item n-team">Our Team</a>
-    <a class="item n-join">Join Us</a>
-
-</div>
-
-<!--固定的主菜单-->
-<div class="ui large borderless top fixed menu transition hidden main menu">
-    <div class="ui text container">
-        <a class="header item desktop-only n-home">
-            <h3 class="ui header">
-                <i class="user secret icon"></i>
-                <div class="content">Privoce</div>
-            </h3>
-        </a>
-        <a class="item mobile-only sidebar-toggle">
-            <i class="sidebar icon"></i>
-        </a>
-        <div class="header item mobile-only center aligned n-home">
-            <h3 class="ui header">The Privoce Project</h3>
-        </div>
-        <a class="item desktop-only n-mission">Mission</a>
-        <a class="item desktop-only n-overview">Overview</a>
-        <a class="item desktop-only n-approach">Approach</a>
-        <a class="item desktop-only n-feature">Features</a>
-        <a class="item desktop-only n-team">Team</a>
-        <a class="item desktop-only n-join">Join Us</a>
-    </div>
-</div>
-
-<!--内容容器-->
-<div class="pusher">
-    <!--向下滚动动画图标-->
-    <div class="scrolling-hint">
-        <i class="inverted big angle double down icon scrolling-hint n-mission"></i>
-    </div>
-
-    <!--主菜单和横幅巨幕-->
-    <div class="ui inverted vertical masthead center aligned segment" id="home">
-        <div class="ui container">
-
-            <!--主菜单-->
-            <div class="ui large secondary inverted pointing menu main menu">
-                <div class="ui text container">
-                    <a class="header item desktop-only n-home">
-                        <h3 class="ui inverted header">
-                            <i class="user secret icon"></i>
-                            <div class="content">Privoce</div>
-                        </h3>
-                    </a>
-                    <a class="item mobile-only sidebar-toggle">
-                        <i class="sidebar icon"></i>
-                    </a>
-                    <div class="header item mobile-only center aligned n-home">
-                        <h3 class="ui inverted header">The Privoce Project</h3>
+    <body>
+        <!-- Fixed navbar -->
+        <div class="nav-container">
+            <nav class="navbar navbar-expand-lg menu">
+                <a class="navbar-brand" href="#" onclick="scrollToSection('header')">
+                    <div class="nav-brand">
+                        <img class="img-brand" src="assets/lock.svg">
+                        <h1 class="name-brand">Privoce</h1>
                     </div>
-                    <a class="item desktop-only n-mission">Mission</a>
-                    <a class="item desktop-only n-overview">Overview</a>
-                    <a class="item desktop-only n-approach">Approach</a>
-                    <a class="item desktop-only n-feature">Features</a>
-                    <a class="item desktop-only n-team">Team</a>
-                    <a class="item desktop-only n-join">Join Us</a>
-                </div>
-            </div>
-
-        </div>
-        <div class="ui text container">
-
-            <!--横幅巨幕-->
-            <div class="ui text container" id="banner">
-
-                <img class="ui image" src="images/aloralogo.png" alt="">
-
-                <h1 class="ui inverted header">
-                    Alora
-                </h1>
-
-                <h2>Hide your digital footprints!</h2>
-                <a href="https://chrome.google.com/webstore/detail/cookie-manager/pcmafklmeafeodgkklcoidiledfeicha">
-                <div class="ui huge primary button">
-                    Get for Chrome
-                        <i class="right arrow icon"></i>
-                </div>
                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navDropdown" aria-controls="navDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg class="navbar-toggler-icon" fill-rule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2"/><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z"/></svg>
+                </button>
+                <div class="collapse navbar-collapse nav-links" id="navDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link item" href="#" onclick="scrollToSection('mission')">Mission</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="dropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our Products
+                                <svg width="10" height="10" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" fill="#6990F2"/></svg>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                <a class="dropdown-item item" href="#" onclick="scrollToSection('alora')">Alora</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link item" href="#" onclick="scrollToSection('our-team')">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link item" href="#" onclick="scrollToSection('join-us')">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
 
+        <!-- Header -->
+        <div id="header">
+            <img class="no-mobile" src="assets/rect.svg" style="position: absolute;">
+            <img class="no-mobile" src="assets/ellipse.svg" style="position: absolute; right: 0; bottom: 0;">
+            <div class="container h-container">
+                <div class="row">
+                    <div class="h-text col-sm">
+                        <h1>Alora</h1>
+                        <p>
+                            /əˈlɔrə/<br/>
+                            Inspired by Harry Potter “Alohomora”, a charm that unlocks doors and windows,  we want to give you the control to lock or unlock your privacy in the way you want!                        </p>
+                        <h3>Hide your digital footprint on Chrome</h3>
+                        <div class="btn-get-extension">
+                            <a href="https://chrome.google.com/webstore/detail/cookie-manager/pcmafklmeafeodgkklcoidiledfeicha">
+                                Get Extension
+                            </a>
+                        </div>
+                    </div>
+                    <div class="h-logo col-sm">
+                        <img class="h-img" src="assets/logo-header.png"/>
+                    </div>
+                </div>
             </div>
 
+            <div class="scrolling-hint no-mobile" onclick="scrollToSection('mission')">
+                <img class="scrolling-hint"
+                    src="assets/double-down-arrow.svg"
+                    style="width: 30px;"
+                />
+            </div>
         </div>
 
-    </div>
-
-    <!--Mission-->
-    <div class="ui text container" id="mission">
-
-        <h1 class="ui horizontal divider header">
-            Mission Statement
-        </h1>
-
-        <h2 class="ui medium header">Build tools to enhance data ownership and privacy!</h2>
-
-        <div class="ui text">
-            <p>If Web 1.0 granted netizens the right to view online content, and Web 2.0 has given netizens the right to publish in a participatory manner, Web 3.0 will go one step further and endow netizens personal storage and personal computation.</p>
-            <p>A decade ago, the rise of smartphone and mobile internet had revolutionized the Internet and ushered in the app era--where Internet companies conduct business through apps, which provide features in the front end to meet user need and data storage in the back end. A big portion of Internet companies’ revenue is from advertising, and that explains why user data is so important for them. However, data collected by different apps are stored in silos with little interoperability--different apps don’t talk to each other due to the competing relationship between Internet companies, which has led to unfavorable results for both the Internet companies and the users--Internet companies sign treaties to trade user data, and user might have dozens of accounts online while can’t find a way to manage their online data footprints.</p>
-            <p>How can we grant every netizen better ownership of personal data? How can netizens gain more representation through better means of participation in today’s data economy? With the rise of cloud computing, the personal cloud model and related content distribution methods have the potential to revolutionize the Internet and live up to the Web 3.0 ideals--the division of labour in data storage, computing, and Internet services. Join me as the pioneers to build out the future of the Internet!</p>
-        </div>
-    </div>
-
-    <!--Overview-->
-    <div class="ui text container" id="overview">
-
-        <h1 class="ui horizontal divider header">
-            Project Overview
-        </h1>
-
-        <div class="ui text">
-            <p>Alora is the first product from the Privoce team. The Privoce project is aimed to provide transparent, secure, user-oriented personal cloud computing solutions for netizen. Alora will serve as the personal data management interface for the Web 3.0 era, an interface between the mature cloud computing infrastructure (cloud storage) and the internet services (apps). </p>
-        </div>
-    </div>
-
-    <!--Approach-->
-    <div class="ui text container" id="approach">
-
-        <h1 class="ui horizontal divider header">
-            Our Approach
-        </h1>
-
-        <div class="ui text">
-            <p>Alora serves as the bridge between cloud computing infrastrucures to apps used by netizen and provides users truly user-centric features that protect user data privacy, enhance data interoperability among different apps, and preserves data ownership for our users.</p>
+        <!-- Our mission section -->
+        <div id="mission">
+            <div class="container">
+                <div class="title-section">
+                    <img src="assets/dec1.svg"/>
+                    <h3>Our Mission</h3>
+                </div>
+                <div class="content">
+                    <h2>Build tools to enhance data ownership and privacy!</h2>
+                    <div class="info-card mx-auto">
+                        <p>
+                            If Web 1.0 granted netizens the right to view online content, and Web 2.0 has given netizens the right to publish in a participatory manner, Web 3.0 will go one step further and endow netizens personal storage and personal computation.
+                            <br><br>
+                            How can we grant every netizen better ownership of personal data? How can netizens gain more representation through better means of participation in today’s data economy? With the rise of cloud computing, the personal cloud model and related content distribution methods have the potential to revolutionize the Internet and live up to the Web 3.0 ideals--the division of labour in data storage, computing, and Internet services. Join me as the pioneers to build out the future of the Internet!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </div>
+        <!-- Alora section -->
+        <div id="alora">
+            <div class="container">
+                <div class="title-section">
+                    <img src="assets/dec2.svg"/>
+                    <h3>Alora</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="alora-info">
+                            Alora is the first product from the Privoce team. The Privoce project is aimed to provide transparent, secure, user-oriented personal cloud computing solutions for netizen.
+                            <br><br>
+                            Alora will serve as the personal data management interface for the Web 3.0 era, an interface between the mature cloud computing infrastructure (cloud storage) and the internet services (apps).
+                        </p>
+                        <div class="btn-get-extension">
+                            <a href="https://chrome.google.com/webstore/detail/cookie-manager/pcmafklmeafeodgkklcoidiledfeicha">
+                                Get Extension
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm"></div>
+                    <div class="col-sm">
+                        <!-- Extension preview -->
+                        <div class="card-extension">
+                            <div class="title-ext">
+                                <img id="icon-alora" src="assets/icon-off.png"/>
+                                <h3>Alora</h3>
+                            </div>
+                            <div class="body-ext">
+                                <h4>Never track my browsing histories on</h4>
+                                <div class="website">
+                                    <img class="icon-site" src="assets/site-icon.svg">
+                                    <p class="url-site">openprocessing.org</p>
+                                </div>
+                                <div class="toggle-div" onclick="toggle()" style="cursor: pointer">
+                                    <div id="toggler" class="toggler-off mx-auto">
+                                        <h5 id="txt-off">OFF</h5>
+                                        <div id="toggler-button" class="toggler-button-off" ></div>
+                                        <h5 id="txt-on">ON</h5>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <img src="assets/info.svg">
+                                    <p>Alora will help you reduce ads and clean cache and cookies related to this site.</p>
+                                </div>
+                            </div>
+                        </div>
 
-    <!--Features-->
-    <div class="ui text container" id="feature">
-
-        <h1 class="ui horizontal divider header">
-            Key Product Features
-        </h1>
-
-        <div class="ui text">
-            <p>Privacy-preserved browsing: we have users to manage cookies, block trackers, and keep their digital footprints safe.</p>
-            <p>Personal Data Management: provide users a friendly interfaces to keep track of their apps (web apps), files (resources), contacts (social relations), accounts (webid/universal login).</p>
-            <p>Advertisement/Subscription Management</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </div>
-
-    <!--Team-->
-    <div class="ui text container" id="team">
-
-        <h1 class="ui horizontal divider header">
-            Our Team
-        </h1>
-
-        <div class="ui grid">
-
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/han.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Han Su</div>
-                        <div class="meta">
-                            <a>Project Lead</a>
-                        </div>
-                        <div class="description">
-                            <a href="http://hansu.studio">Han Su</a> is a cosmopolitan thinker with a background in computer science and new media technologies. Han has lived across the globe and has worked in Internet startups and giant companies. Han earned his master’s degree in comparative media studies from MIT.
-                        </div>
-                    </div>
+        <!-- Section about Alora -->
+        <div id="about-alora">
+            <div class="container">
+                <div class="title-section">
+                    <img src="assets/dec3.svg"/>
+                    <h3>What can Alora do?</h3>
+                </div>
+                <div class="a-a-content">
+                    <ul class="list">
+                        <li class="marked">
+                            Ease browsing histories from selected domains (unstore cookies and caches)
+                        </li>
+                        <li class="marked">
+                            Reduce targeted ads online
+                        </li>
+                        <li class="not-marked">
+                            Add password protection for selected domains <span>(Coming Soon!)</span>
+                        </li>
+                        <li class="not-marked">
+                            Block trackers on the visiting sites <span>(Coming Soon!)</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/ziming.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Ziming Sheng</div>
-                        <div class="meta">
-                            <a>Engineering Lead</a>
-                        </div>
-                        <div class="description">
-                            Ziming graduated from NYU and then earned his master degree in Computer Science at Duke. After spending years in the east coast, Ziming will finally start his career as software developer in the Emerald City.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/liyang.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Liyang Zhu</div>
-                        <div class="meta">
-                            <a>Full Stack Engineer</a>
-                        </div>
-                        <div class="description">
-                            <a href="https://www.tomzhu.site/">Liyang (Tom) Zhu</a> is currently a junior at New York University in Shanghai majoring in Computer Science. He has a keen interest in various programming languages and computer networking systems. In his spare time, he loves developing gadgets that make life easier.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/shi.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Shawn Zeng</div>
-                        <div class="meta">
-                            <a>Full Stack Engineer</a>
-                        </div>
-                        <div class="description">
-                            Shawn earned his Master degree from UCI studying Computer Science. He has interned at Oracle and has worked with startups in the Internet industry. Shawn is familiar with cloud computing technologies and big data, especially the use of which in social media products. Born and raised in Chengdu, Shi loves spicy food, hiking and hackathon.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/wenhe.jpeg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Eric Li</div>
-                        <div class="meta">
-                            <a>Software Development Engineer</a>
-                        </div>
-                        <div class="description">
-                            <a href="https://portfolio.steins.live/">Eric</a> has a background in computer science and interactive media. Wenhe is an Open Source advocator, software development engineer, and machine learning engineer. Currently, Wenhe will work as a frontend developer in China.                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/junchao.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Junchao Lin</div>
-                        <div class="meta">
-                            <a>UX Researcher</a>
-                        </div>
-                        <div class="description">
-                            Junchao Lin has a background in integrated product innovation and human-computer interaction. Lin has participated in and led multiple user research and design strategy projects in both design consulting and giant tech firms. Lin earned his master’s degree in Integrated Innovation for Products and Services from CMU, and is currently a research associate at HCII.                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/jackie.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Jackie Hu</div>
-                        <div class="meta">
-                            <a>Product Designer</a>
-                        </div>
-                        <div class="description">
-                            <a href="http://wenqian.design/">Jackie Hu</a> is a product designer working in the intersection of technology, design, and art. She cares about making positive impacts and bringing delights to people’s lives by designing meaningful products. Currently, Jackie is a master’s candidate in Human-Computer Interaction at Carnegie Mellon University.
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/boyu.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Boyu Liu</div>
-                        <div class="meta">
-                            <a>Product and Marketing Lead</a>
+        <!-- Our Team! -->
+        <div id="our-team">
+            <div class="container">
+                <div class="title-section">
+                    <img src="assets/dec4.svg"/>
+                    <h3>Our Team</h3>
+                </div>
+                <h2 class="txt-team">
+                    Meet our team of<br/>
+                    innovators, problem solvers,<br/>
+                    developers and designers.
+                </h2>
+                <div class="team-content">
+                    <div class="row">
+                        <div class="person col-sm-4">
+                            <img src="assets/people/han.png">
+                            <h3 style="font-weight: bolder;">Han Su</h3>
+                            <h3>Project Lead</h3>
                         </div>
-                        <div class="description">
-                            Boyu Liu has a background in statistics, machine learning, economics, and policy. He has extensive experience in technology startups with data science, operations, and product management. He is pursuing a dual MS degree in Computer Science and Technology Policy at MIT.
+
+                        <div class="person col-sm-4">
+                            <img src="assets/people/ziming.png">
+                            <h3 style="font-weight: bolder;">Ziming Sheng</h3>
+                            <h3>Backend Engineer</h3>
+                        </div>
+
+                        <div class="person col-sm-4">
+                            <img src="assets/people/tom.png">
+                            <h3 style="font-weight: bolder;">Tom Zhu</h3>
+                            <h3>Fullstack Engineer</h3>
+                        </div>
+                        <div class="person col-sm-4">
+                            <img src="assets/people/shawn.png">
+                            <h3 style="font-weight: bolder;">Shawn Zeng</h3>
+                            <h3>Fullstack Engineer</h3>
+                        </div>
+                        <div class="person col-sm-4">
+                            <img src="assets/people/eric.png">
+                            <h3 style="font-weight: bolder;">Eric Li</h3>
+                            <h3>Fullstack Engineer</h3>
+                        </div>
+
+                        <div class="person col-sm-4">
+                            <img src="assets/people/junchao.png">
+                            <h3 style="font-weight: bolder;">David Lin</h3>
+                            <h3>UX Researcher</h3>
+                        </div>
+                        <div class="person col-sm-4">
+                            <img src="assets/people/Jackie.png">
+                            <h3 style="font-weight: bolder;">Jackie Hu</h3>
+                            <h3>Product Designer</h3>
+                        </div>
+                        <div class="person col-sm-4">
+                            <img src="assets/people/Boyu.png">
+                            <h3 style="font-weight: bolder;">Boyu Liu</h3>
+                            <h3>Product Manager</h3>
+                        </div>
+                        <div class="person col-sm-4">
+                            <img src="assets/people/zhenyu.png">
+                            <h3 style="font-weight: bolder;">Bill Chen</h3>
+                            <h3>Product Marketing Consultant</h3>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="column">
-                <div class="ui fluid card">
-                    <div class="ui circular image">
-                        <img src="images/zhenyu.jpg">
-                    </div>
-                    <div class="content">
-                        <div class="header">Zhenyu Chen</div>
-                        <div class="meta">
-                            <a>Product and Marketing Analyst</a>
-                        </div>
-                        <div class="description">
-                            Zhenyu Chen has a background in business, finance and data analytics. He has experience at an Israli technology startup as a data-driven business development specialist. Graduated from NYU and then earned his master’s degree from Brandeis University, he will start his career as a risk assessment analyst in the field of finance.
-                        </div>
+        <!-- Join Us -->
+        <div id="join-us">
+            <div class="container">
+                <div class="title-section">
+                    <img src="assets/dec5.svg"/>
+                    <h3>Join Us</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p class="txt-contact">
+                            If you are interested in what we are doing and would like to contribute to the Privoce project, please don’t hesitate to <a href="mailto:hansu@mit.edu?&subject=Interested%20in%20Privoce">contact us</a>!
+                        </p>
                     </div>
                 </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <!--Join-->
-    <div class="ui text container" id="join">
-
-        <h1 class="ui horizontal divider header">
-            Join Us
-        </h1>
-
-        <div class="ui text">
-            <p>If you are interested in what we are doing and would like to contribute to the Privoce project, please don’t hesitate to <a href="mailto:hansu@mit.edu?&subject=Interested%20in%20Privoce">contact us!</a></p>
-            <!--<p>We are recruiting the following roles:</p>-->
-
-            <!--<div class="ui bulleted list">-->
-                <!--<div class="item">-->
-                    <!--<div>UI/UX Designer:</div>-->
-                    <!--<div class="list">-->
-                        <!--<div class="item">Gather and evaluate user requirements in collaboration with product managers and engineers.</div>-->
-                        <!--<div class="item">Interested in data management design.</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="item">-->
-                    <!--<div>Full-stack Engineer:</div>-->
-                    <!--<div class="list">-->
-                        <!--<div class="item">Experienced in developing web applications/extensions.</div>-->
-                        <!--<div class="item">Familiar with cookies.</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="item">-->
-                    <!--<div>Software Engineer:</div>-->
-                    <!--<div class="list">-->
-                        <!--<div class="item">With good knowledge in recommendation systems and basic web technologies.</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="item">-->
-                    <!--<div>Product Manager</div>-->
-                    <!--<div class="list">-->
-                        <!--<div class="item">Interested in Internet products and able to conduct research to obtain market information.</div>-->
-                        <!--<div class="item">Good at defining problems faced by users through qualitative analysis.</div>-->
-                        <!--<div class="item">Interested in working with UX to conduct interviews to better understand users.</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        </div>
-
-    </div>
-
-    <!--页脚-->
-    <div class="ui inverted vertical segment" id="footer">
-        <div class="ui container">
-            <div class="ui equal height stackable grid">
-
-                <div class="center aligned middle aligned row">
-                    <div class="column">
-                        The Privoce Project - 2020
-                    </div>
-                </div>
-
+                
             </div>
         </div>
-    </div>
 
-</div>
-</body>
+        <!-- Footer -->
+        <div id="footer">
+            <h2>The Privoce Project - 2020</h2>
+        </div>
+
+    </body>
 </html>

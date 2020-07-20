@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48e7c18-3fa6-4627-a293-bd6c89b15e8a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/semantic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/semantic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/brand-icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/brand-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/brand-icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/brand-icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/brand-icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/outline-icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/outline-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/outline-icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/outline-icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/fonts/outline-icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/fomantic-ui/themes/default/assets/images/flags.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,12 +45,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+            <state relative-caret-position="-525">
+              <caret line="271" column="26" lean-forward="true" selection-start-line="271" selection-start-column="26" selection-end-line="271" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index 2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index 2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="248" column="40" lean-forward="false" selection-start-line="248" selection-start-column="40" selection-end-line="248" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,21 +77,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="semantic.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/fomantic-ui/semantic.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5925">
-              <caret line="395" column="11485" lean-forward="false" selection-start-line="395" selection-start-column="11485" selection-end-line="395" selection-end-column="11485" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>2185d0</find>
+      <find>style</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +91,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/fomantic-ui/semantic.min.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index 2.html" />
       </list>
     </option>
   </component>
@@ -116,52 +138,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePrivoceProject-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePrivoceProject-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePrivoceProject-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePrivoceProject-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fomantic-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePrivoceProject-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThePrivoceProject-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -183,8 +159,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index 2.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index 2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/index 2.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -253,12 +232,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index 2.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index 2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -276,23 +257,23 @@
       <workItem from="1593576736183" duration="4023000" />
       <workItem from="1593993461401" duration="1196000" />
       <workItem from="1594005414117" duration="1015000" />
-      <workItem from="1594076003852" duration="1881000" />
+      <workItem from="1594076003852" duration="5526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12048000" />
+    <option name="totallyTimeSpent" value="15693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33294797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33294797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -405,9 +386,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        <state relative-caret-position="-525">
+          <caret line="271" column="26" lean-forward="true" selection-start-line="271" selection-start-column="26" selection-end-line="271" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="248" column="40" lean-forward="false" selection-start-line="248" selection-start-column="40" selection-end-line="248" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
