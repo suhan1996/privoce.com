@@ -492,22 +492,22 @@ div#our-team {
 }
 
 .photo {
-  width: 100%;
-  height: 250px;
+  width: 290px;
+  height: 240px;
   border-radius: 15px;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
 .person img {
-  height: 250px;
+  height: 240px;
   display: block;
 }
 
 .person-description {
   display: none;
-  width: 100%;
-  height: 250px;
+  width: 290px;
+  height: 240px;
   border-radius: 15px;
   margin-bottom: 20px;
 
