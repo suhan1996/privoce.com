@@ -19,14 +19,14 @@ toggle = () => {
     let txtOn = document.getElementById("txt-on");
     let txtOff = document.getElementById("txt-off");
     let iconAlora = document.getElementById("icon-alora");
-    
+
     if (isOn) {
         toggler.classList.remove("toggler-on");
         toggler.classList.add("toggler-off");
-        
+
         togglerButton.classList.remove("toggler-button-on");
         togglerButton.classList.add("toggler-button-off");
-        
+
         txtOff.style.display = "block";
         txtOn.style.display = "none";
 
@@ -45,3 +45,10 @@ toggle = () => {
     }
     isOn = !isOn;
 }
+
+$(function(){
+    var navMain = $("#navDropdown");
+    navMain.on("click", ".menu-item", null, function () {
+        navMain.collapse('hide');
+    });
+});
