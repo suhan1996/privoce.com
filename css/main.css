@@ -676,6 +676,7 @@ div#footer h2 {
   .h-logo .h-img {
     margin-top: 20px;
     width: 100%;
+    height: auto;
   }
 
   .h-text h3 {
