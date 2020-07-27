@@ -1,10 +1,4 @@
-let toggler = document.getElementById("toggler");
-let togglerButton = document.getElementById("toggler-button");
-let txtOn = document.getElementById("txt-on");
-let txtOff = document.getElementById("txt-off");
-let iconAlora = document.getElementById("icon-alora");
 let isOn = false;
-
 
 scrollToSection = (section) => {
     let offset = document.getElementById(section).offsetTop;
@@ -19,14 +13,14 @@ toggle = () => {
     let txtOn = document.getElementById("txt-on");
     let txtOff = document.getElementById("txt-off");
     let iconAlora = document.getElementById("icon-alora");
-
+    
     if (isOn) {
         toggler.classList.remove("toggler-on");
         toggler.classList.add("toggler-off");
-
+        
         togglerButton.classList.remove("toggler-button-on");
         togglerButton.classList.add("toggler-button-off");
-
+        
         txtOff.style.display = "block";
         txtOn.style.display = "none";
 
@@ -46,9 +40,20 @@ toggle = () => {
     isOn = !isOn;
 }
 
-$(function(){
+$(function() { 
     var navMain = $("#navDropdown");
-    navMain.on("click", ".menu-item", null, function () {
+    navMain.on("click", ".menu-item", null, () => {
         navMain.collapse('hide');
     });
 });
+
+window.onresize = () => {
+    let card = document.getElementById("container-card");
+    if (window.innerWidth < 720) {
+        card.classList.remove("ml-auto");
+        card.classList.add("mx-auto");
+    } else {
+        card.classList.remove("mx-auto");
+        card.classList.add("ml-auto");
+    }
+}
