@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>The Privoce Project</title>
         <link rel="icon" type="image/png" href="assets/favicon.png"/>
@@ -20,8 +20,8 @@
             <nav class="navbar navbar-expand-lg menu">
                 <a class="navbar-brand" href="#" onclick="scrollToSection('header')">
                     <div class="nav-brand menu-item">
-                        <img class="img-brand" src="assets/lock.svg">
-                        <h1 class="name-brand">Privoce</h1>
+                        <img draggable="false" class="img-brand" src="assets/lock.svg" alt="lock">
+                        <h2 class="name-brand">Privoce</h2>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navDropdown" aria-controls="navDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,13 +50,13 @@
                         <li class="nav-item dropdown mobile-flag-link">
                             <a class="nav-link" href="#" id="dropdownFlags" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <!-- Current website's flag -->
-                                <img class="flag" src="assets/flags/us.jpg"/>
+                                <img draggable="false" class="flag" src="assets/flags/us.jpg" alt="US"/>
                                 <svg class="no-desktop arrow-tip" width="10" height="10" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" fill="#6990F2"/></svg>
                             </a>
                             <div class="dropdown-menu flag-menu" aria-labelledby="dropdownFlags">
                                 <!-- Other websites' flag -->
                                 <a class="dropdown-item flag-item" href="https://br.privoce.com">
-                                    <img class="flag" src="assets/flags/brazil.jpg"/>
+                                    <img draggable="false" class="flag" src="assets/flags/brazil.jpg" alt="BR"/>
                                 </a>
                                 
                             </div>
@@ -69,8 +69,8 @@
 
         <!-- Header -->
         <div id="header">
-            <img class="no-mobile" src="assets/rect.svg" style="position: absolute;">
-            <img class="no-mobile" src="assets/ellipse.svg" style="position: absolute; right: 0; bottom: 0;">
+            <img draggable="false" class="no-mobile" src="assets/rect.svg" alt="" style="position: absolute;">
+            <img draggable="false" class="no-mobile" src="assets/ellipse.svg" alt="" style="position: absolute; right: 0; bottom: 0;">
             <div class="container h-container">
                 <div class="row">
                     <div class="h-text col-sm">
@@ -86,15 +86,16 @@
                         </div>
                     </div>
                     <div class="h-logo col-sm">
-                        <img class="h-img" src="assets/logo-header.png"/>
+                        <img draggable="false" class="h-img" src="assets/logo-header.png" alt="magic wand"/>
                     </div>
                 </div>
             </div>
 
             <div class="scrolling-hint no-mobile" onclick="scrollToSection('mission')">
-                <img class="scrolling-hint"
+                <img class="scrolling-hint" draggable="false"
                     src="assets/double-down-arrow.svg"
                     style="width: 30px;"
+                    alt="v"
                 />
             </div>
         </div>
@@ -103,7 +104,7 @@
         <div id="mission">
             <div class="container">
                 <div class="title-section">
-                    <img src="assets/dec1.svg"/>
+                    <img draggable="false" src="assets/dec1.svg" alt=""/>
                     <h3>Our Mission</h3>
                 </div>
                 <div class="content">
@@ -123,7 +124,7 @@
         <div id="alora">
             <div class="container">
                 <div class="title-section">
-                    <img src="assets/dec2.svg"/>
+                    <img draggable="false" src="assets/dec2.svg" alt=""/>
                     <h3>Alora</h3>
                 </div>
                 <div class="row">
@@ -146,13 +147,13 @@
                             <!-- Extension preview -->
                             <div class="card-extension">
                                 <div class="title-ext">
-                                    <img id="icon-alora" src="assets/icon-off.png"/>
+                                    <img draggable="false" id="icon-alora" src="assets/icon-off.png" alt=""/>
                                     <h3>Alora</h3>
                                 </div>
                                 <div class="body-ext">
                                     <h4>Never track my browsing histories on</h4>
                                     <div class="website">
-                                        <img class="icon-site" src="assets/site-icon.svg">
+                                        <img draggable="false" class="icon-site" src="assets/site-icon.svg" alt="">
                                         <p class="url-site">openprocessing.org</p>
                                     </div>
                                     <div class="toggle-div" style="cursor: pointer" onclick="toggle()">
@@ -163,7 +164,7 @@
                                         </div>
                                     </div>
                                     <div class="info">
-                                        <img id="infoicon" src="assets/info.svg">
+                                        <img draggable="false" id="infoicon" src="assets/info.svg" alt="">
                                         <p>Alora will help you reduce ads and clean cache and cookies related to this site on this computer.</p>
                                     </div>
                                 </div>
@@ -180,7 +181,7 @@
         <div id="about-alora">
             <div class="container">
                 <div class="title-section">
-                    <img src="assets/dec3.svg"/>
+                    <img draggable="false" src="assets/dec3.svg" alt=""/>
                     <h3>What can Alora do?</h3>
                 </div>
                 <div class="a-a-content">
@@ -191,7 +192,7 @@
                         <li class="marked">
                             Reduce targeted ads online
                         </li>
-                        <li class="not-marked">
+                        <li class="marked">
                             Block trackers on the visiting sites <span>(Coming Soon!)</span>
                         </li>
                         <li class="not-marked">
@@ -206,7 +207,7 @@
         <div id="our-team">
             <div class="container">
                 <div class="title-section">
-                    <img src="assets/dec4.svg"/>
+                    <img draggable="false" src="assets/dec4.svg" alt=""/>
                     <h3>Our Team</h3>
                 </div>
                 <h2 class="txt-team">
@@ -479,7 +480,7 @@
                             </div>
                             <div class="p-info">
                                 <h3 style="font-weight: bolder;">Victória Trindade</h3>
-                                <h3>Brazil Team</h3><h3>Marketing Leader </h3>
+                                <h3>Marketing Lead</h3>
                             </div>
                         </div>
 
@@ -498,7 +499,45 @@
                             </div>
                             <div class="p-info">
                                 <h3 style="font-weight: bolder;">João Andreotti</h3>
-                                <h3>Brazil Team</h3><h3>Back-end Engineer </h3>
+                                <h3>Back-end Engineer </h3>
+                            </div>
+                        </div>
+
+                        <div class="p-container">
+                            <div class="person">
+                                <div class="photo"
+                                    style="background-image: url('./assets/people/andre.jpg');"
+                                ></div>
+                                <div class="p-description">
+                                    <div>
+                                        <p>
+                                            André Andrade is a Information Systems student in UESB. He is interested in programming, diversity, gender equality and assistive home automation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-info">
+                                <h3 style="font-weight: bolder;">André Andrade</h3>
+                                <h3>Front-end Engineer<br/></h3>
+                            </div>
+                        </div>
+
+                        <div class="p-container">
+                            <div class="person">
+                                <div class="photo"
+                                    style="background-image: url('./assets/people/tulio.jpg');"
+                                ></div>
+                                <div class="p-description">
+                                    <div>
+                                        <p>
+                                            Túlio Calil is a Information Systems student in UESB. His areas of interest are web, mobile, game development and functional programming technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-info">
+                                <h3 style="font-weight: bolder;">Túlio Calil</h3>
+                                <h3>Fullstack Engineer</h3>
                             </div>
                         </div>
 
@@ -518,7 +557,7 @@
         <div id="join-us">
             <div class="container">
                 <div class="title-section">
-                    <img src="assets/dec5.svg"/>
+                    <img draggable="false" src="assets/dec5.svg" alt=""/>
                     <h3>Join Us</h3>
                 </div>
                 <div style="margin-bottom: 22vmax" class="row">

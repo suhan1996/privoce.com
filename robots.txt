@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://privoce.com/sitemap.xml
