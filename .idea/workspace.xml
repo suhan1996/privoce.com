@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48e7c18-3fa6-4627-a293-bd6c89b15e8a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/alora-pic.png" afterPath="$PROJECT_DIR$/assets/alora-pic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,39 +20,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding />
-            </state>
+      <file leaf-file-name="alora-pic.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/alora-pic.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-              <folding>
-                <marker date="1601997445508" expanded="true" signature="370:509" ph="{...}" />
-                <marker date="1601997445508" expanded="true" signature="461:500" ph="{...}" />
-                <marker date="1601997445508" expanded="true" signature="526:1570" ph="{...}" />
-                <marker date="1601997445508" expanded="true" signature="831:1196" ph="{...}" />
-                <marker date="1601997445508" expanded="true" signature="1202:1550" ph="{...}" />
-                <marker date="1601997445508" expanded="true" signature="1585:1720" ph="{...}" />
-                <marker date="1601997445508" expanded="true" signature="1675:1692" ph="{...}" />
-              </folding>
-            </state>
+      <file leaf-file-name="alora-pic-small.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/alora-pic-small.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="167">
+              <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,51 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AloraPrivacyPolicy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AloraPrivacyPolicy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4549" lean-forward="true" selection-start-line="0" selection-start-column="4549" selection-end-line="0" selection-end-column="4549" />
-              <folding>
-                <element signature="e#3622#3628#0" expanded="true" />
-                <element signature="e#4569#4575#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_backup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_backup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4695">
-              <caret line="313" column="42" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/favicon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="287">
+              <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -154,8 +102,9 @@
       <find>h-img</find>
       <find>Our Product</find>
       <find>han@</find>
-      <find>name-brand</find>
       <find>Privoce</find>
+      <find>name-brand</find>
+      <find>alora-pic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,8 +117,8 @@
         <option value="$PROJECT_DIR$/index 2.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/AloraPrivacyPolicy.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -384,12 +333,12 @@
       <workItem from="1594076003852" duration="13526000" />
       <workItem from="1596494312211" duration="5238000" />
       <workItem from="1600119661908" duration="888000" />
-      <workItem from="1600956092803" duration="3503000" />
+      <workItem from="1600956092803" duration="5904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33322000" />
+    <option name="totallyTimeSpent" value="35723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="957" extended-state="0" />
@@ -716,10 +665,10 @@
     <entry file="file://$PROJECT_DIR$/AloraPrivacyPolicy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4549" lean-forward="true" selection-start-line="0" selection-start-column="4549" selection-end-line="0" selection-end-column="4549" />
+          <caret line="0" column="4549" lean-forward="false" selection-start-line="0" selection-start-column="4549" selection-end-line="0" selection-end-column="4549" />
           <folding>
-            <element signature="e#3622#3628#0" expanded="true" />
-            <element signature="e#4569#4575#0" expanded="true" />
+            <element signature="e#3622#3628#0" expanded="false" />
+            <element signature="e#4569#4575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,10 +681,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/alora-pic-small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/alora-pic.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="167">
+          <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -775,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="287">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
           <folding />
         </state>
       </provider>
