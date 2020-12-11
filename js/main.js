@@ -3,7 +3,10 @@ window.onload = () => {
     let buttons = document.querySelectorAll('.get-extension');
     // If it's Mozilla Firefox, the buttons will redirect to the Firefox store
     if (typeof InstallTrigger !== 'undefined') {
-        buttons[0].href = buttons[1].href = "https://addons.mozilla.org/firefox/addon/alora/";
+        buttons[0].href = "https://addons.mozilla.org/firefox/addon/alora/";
+        console.log("É o firefox")
+    } else {
+        console.log("Não é o firefox")
     }
 }
 
