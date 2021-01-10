@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f48e7c18-3fa6-4627-a293-bd6c89b15e8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/index.html" afterPath="$PROJECT_DIR$/portal/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/terms.html" afterPath="$PROJECT_DIR$/portal/terms.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,13 +19,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="alora-pic.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/alora-pic.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="alora-pic-small.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/alora-pic-small.png">
           <provider selected="true" editor-type-id="images">
@@ -73,11 +67,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terms.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="terms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/terms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="144" column="8" lean-forward="false" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+            <state relative-caret-position="107">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portal/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="253" column="9" lean-forward="true" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privacy-policy.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/privacy-policy.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -161,6 +175,7 @@
       <find>scri</find>
       <find>color</find>
       <find>new tab</find>
+      <find>ent that you are over the age of 18</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,6 +193,7 @@
         <option value="$PROJECT_DIR$/terms.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/portal/terms.html" />
+        <option value="$PROJECT_DIR$/portal/index.html" />
       </list>
     </option>
   </component>
@@ -262,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.terms.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/index.html">
       <method />
     </configuration>
@@ -270,6 +286,9 @@
       <method />
     </configuration>
     <configuration default="false" name="terms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/portal/terms.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/portal/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -338,16 +357,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index 2.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.terms.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.terms.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index 2.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.terms.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index 2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -373,12 +394,12 @@
       <workItem from="1606964380116" duration="15000" />
       <workItem from="1608011308730" duration="1147000" />
       <workItem from="1608055753802" duration="149000" />
-      <workItem from="1610169962684" duration="238000" />
+      <workItem from="1610169962684" duration="825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40075000" />
+    <option name="totallyTimeSpent" value="40662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="957" extended-state="0" />
@@ -413,24 +434,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/privacyPolicy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-          <folding>
-            <marker date="1603335584510" expanded="true" signature="4636:4639" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8745">
@@ -1048,10 +1051,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portal/privacy-policy.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portal/terms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="144" column="8" lean-forward="false" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+        <state relative-caret-position="107">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="253" column="9" lean-forward="true" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
           <folding />
         </state>
       </provider>
