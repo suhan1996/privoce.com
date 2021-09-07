@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f48e7c18-3fa6-4627-a293-bd6c89b15e8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sphere/privacy-policy.htm" afterPath="$PROJECT_DIR$/sphere/privacy-policy.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +21,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="1980">
               <caret line="132" column="28" lean-forward="false" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,21 +90,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy-policy.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="privacy-policy.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/privacy-policy.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="103" column="147" lean-forward="false" selection-start-line="103" selection-start-column="147" selection-end-line="103" selection-end-column="147" />
+            <state relative-caret-position="1575">
+              <caret line="105" column="79" lean-forward="false" selection-start-line="105" selection-start-column="79" selection-end-line="105" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy-policy.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="privacy-policy.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sphere/privacy-policy.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="38" column="215" lean-forward="true" selection-start-line="38" selection-start-column="215" selection-end-line="38" selection-end-column="215" />
+            <state relative-caret-position="212">
+              <caret line="129" column="147" lean-forward="false" selection-start-line="129" selection-start-column="147" selection-end-line="129" selection-end-column="147" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AloraPrivacyPolicy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AloraPrivacyPolicy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4422" lean-forward="false" selection-start-line="0" selection-start-column="4422" selection-end-line="0" selection-end-column="4422" />
               <folding />
             </state>
           </provider>
@@ -123,21 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thankyou.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thankyou.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="privacyPolicy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/privacyPolicy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -180,6 +181,7 @@
       <find>Get</find>
       <find>alora</find>
       <find>portal</find>
+      <find>trac</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,8 +201,8 @@
         <option value="$PROJECT_DIR$/portal/index.html" />
         <option value="$PROJECT_DIR$/random.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/sphere/privacy-policy.htm" />
         <option value="$PROJECT_DIR$/portal/privacy-policy.htm" />
+        <option value="$PROJECT_DIR$/sphere/privacy-policy.htm" />
       </list>
     </option>
   </component>
@@ -231,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,6 +243,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ThePrivoceProject-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThePrivoceProject-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThePrivoceProject-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Terms and Conditions for privoce_files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,6 +290,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,11 +315,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.privacy-policy.htm (1)">
+  <component name="RunManager" selected="JavaScript Debug.privacyPolicy.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="terms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/portal/terms.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/portal/index.html">
@@ -313,6 +326,9 @@
       <method />
     </configuration>
     <configuration default="false" name="privacy-policy.htm (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/sphere/privacy-policy.htm">
+      <method />
+    </configuration>
+    <configuration default="false" name="privacyPolicy.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ThePrivoceProject-master/privacyPolicy.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -383,18 +399,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.terms.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.privacyPolicy.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.terms.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.privacyPolicy.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.privacy-policy.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -430,25 +446,28 @@
       <workItem from="1616468667213" duration="2440000" />
       <workItem from="1617249469079" duration="669000" />
       <workItem from="1618281029303" duration="691000" />
-      <workItem from="1626237495107" duration="844000" />
+      <workItem from="1626237495107" duration="1454000" />
+      <workItem from="1628264218964" duration="75000" />
+      <workItem from="1630420136680" duration="1183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61590000" />
+    <option name="totallyTimeSpent" value="63458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="976" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24829157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -858,13 +877,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AloraPrivacyPolicy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4549" lean-forward="false" selection-start-line="0" selection-start-column="4549" selection-end-line="0" selection-end-column="4549" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -916,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/privacyPolicy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portal/terms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -953,7 +957,7 @@
     <entry file="file://$PROJECT_DIR$/random.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="1980">
           <caret line="132" column="28" lean-forward="false" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -987,18 +991,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sphere/privacy-policy.htm">
+    <entry file="file://$PROJECT_DIR$/portal/privacy-policy.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="38" column="215" lean-forward="true" selection-start-line="38" selection-start-column="215" selection-end-line="38" selection-end-column="215" />
+        <state relative-caret-position="1575">
+          <caret line="105" column="79" lean-forward="false" selection-start-line="105" selection-start-column="79" selection-end-line="105" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/privacy-policy.htm">
+    <entry file="file://$PROJECT_DIR$/AloraPrivacyPolicy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="103" column="147" lean-forward="false" selection-start-line="103" selection-start-column="147" selection-end-line="103" selection-end-column="147" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4422" lean-forward="false" selection-start-line="0" selection-start-column="4422" selection-end-line="0" selection-end-column="4422" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/privacyPolicy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sphere/privacy-policy.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="129" column="147" lean-forward="false" selection-start-line="129" selection-start-column="147" selection-end-line="129" selection-end-column="147" />
           <folding />
         </state>
       </provider>
