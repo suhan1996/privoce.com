@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<script>
+    var host = "YOURDOMAIN.github.io";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -168,7 +173,7 @@
                 <div class="col-sm no-desktop col-img">
                     <img draggable="false" src="assets/vera.svg" alt="vera">
                 </div>
-                <iframe src="//privoce.voce.chat" width="1200" height="800px" frameborder="0"></iframe>
+                <iframe src="https://privoce.voce.chat" width="1200" height="800px" frameborder="0"></iframe>
                 <!-- Change the src to your vocechat url. Width and height can be changed, and we recommend using CSS to control it -->
             </div>
         </div>
